@@ -1,6 +1,6 @@
 {
   "name": "std-msg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "return a nicely formatted string to display on the console, useful for displaying more readable errors object.",
   "main": "index.js",
