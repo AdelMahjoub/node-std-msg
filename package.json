@@ -1,0 +1,23 @@
+{
+  "name": "std-msg",
+  "version": "1.0.0",
+  "private": false,
+  "description": "return a nicely formatted string to display on the console, useful for displaying more readable errors object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": ["nodejs", "colors", "console", "stdout", "errors", "messages", "format", "display"],
+  "author": "Adel Mahjoub",
+  "license": "MIT",
+  "engines": {
+    "node": "6.11.3",
+    "npm": "3.10.10"
+  },
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
