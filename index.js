@@ -221,7 +221,7 @@ class StdMsg {
       output = 
        output
         .concat(colors[this._options.labels.color][this._options.labels.style](key.toUpperCase()))
-        .concat(' '.repeat(this._spacing - key.length))
+        .concat(' '.repeat(Math.abs(this._spacing - key.length)))
         .concat(
           ((typeof obj[key] === 'string') || (typeof obj[key] === 'number'))
           ?
@@ -246,7 +246,7 @@ class StdMsg {
       output = 
        output
         .concat(colors[this._options.labels.color][this._options.labels.style](index))
-        .concat(' '.repeat(this._spacing - index.toString().length))
+        .concat(' '.repeat(Math.abs(this._spacing - index.toString().length)))
         .concat(
           ((typeof value === 'string') || (typeof value === 'number'))
           ?
