@@ -10,6 +10,13 @@
   "keywords": ["nodejs", "colors", "console", "stdout", "errors", "messages", "format", "display"],
   "author": "Adel Mahjoub",
   "license": "MIT",
+  "maintainers": [
+    "Adel Mahjoub"
+  ],
+  "repository": {
+    "type": "github",
+    "url": ""
+  },
   "engines": {
     "node": "6.11.3",
     "npm": "3.10.10"
